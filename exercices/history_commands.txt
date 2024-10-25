@@ -1,0 +1,30 @@
+ 2012  pyenv install -v 3.9.0
+ 2013  pyenv global 3.9.0
+ 2014  python -V
+ 2015  history 
+ 2016  python  -m venv venv
+ 2017  source venv/bin/activate
+ 2018  python -V
+ 2019  cd exercices/
+ 2020  lsa
+ 2021  pip install langchain streamlit
+ 2022  lsa
+ 2023  mv gen_test_employee.py employee_data_generator.py
+ 2024  streamlit run employee_data_generator.py
+ 2025  pip install langchain_community
+ 2026  streamlit run employee_data_generator.py
+ 2027  vim .env
+ 2028  lsa
+ 2029  python gemini-try.py 
+ 2030  pip install langchain_google_genai
+ 2031  python gemini-try.py 
+ 2032  lsa
+ 2033  cat .env 
+ 2034  export GOOGLE_API_KEY=your_own_key
+ 2036  curl   -H 'Content-Type: application/json'   -d '{"contents":[{"parts":[{"text":"Explain how AI works"}]}]}'   -X POST 'https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=your_own_key'
+ 2039  python gemini-try.py
+ 2040  pip install grpcio
+ 2041  python gemini-try.py 
+ 2042  streamlit run employee_data_generator.py
+ 2043  history 200
+ 2044  history 200 > history_commands.txt
